@@ -6,6 +6,7 @@
 
  
 html {
+  font: ;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,6 +15,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font: 
 }
 
 @media only screen and (min-width: 60em) {
@@ -31,7 +35,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 130em) {
    
     html {
     font-size: 130%;
@@ -76,7 +80,12 @@ a:focus {
 }
 
 .masthead {
-    overflow: hidden;
+    
+}
+
+header {
+    overflow:hidden;
+    display: inline;
 }
 
 .navigation {
@@ -84,20 +93,45 @@ a:focus {
     display: inline;
     overflow: hidden;
 }
-
+        
+img {
+  display: block;
+  width: 100%;
+}
 
 .tour {
     text-align: center;
-    padding: 1.5em .5em;
+    padding: 3.5em;
+}
+   
+.logo {
+    display: block;
+    width: 10%;
+    height: auto;
+    overflow: hidden;
+}
+
+.icon {
+    width: 18em;
+    margin: auto;
+    padding: 1.5em;
+} 
+
+h1 {
+    overflow: hidden;
+    display: inline-block;
 }
 
 .center {
-    display: block;
-    margin: auto;
-    vertical-align: middle;
+    margin: 0 auto;
 }
-    
-@media only screen and (min-width: 25em) {
+
+.signup {
+    width: 200px;
+    height: auto;
+}
+
+@media only screen and (min-width: 60em) {
     .nav li {
         display: inline-block;
     }
@@ -113,7 +147,7 @@ a:focus {
 
 
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
     
     .nav {
         float: left;
@@ -124,6 +158,6 @@ a:focus {
     }
     
 }
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 130em) {
    
 }
