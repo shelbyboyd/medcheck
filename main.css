@@ -162,6 +162,10 @@ h2,h3 {
         float: right;
         display: inline-block;
     }
+    
+    .signup {
+    width: 50%;
+    }
 
 }
 
@@ -178,10 +182,15 @@ h2,h3 {
         margin: 0 auto;
     }
     
+    .signup {
+    width: 40%;
+    }
    
     
 }
 @media only screen and (min-width: 130em) {
    
-   
+   .signup {
+    width: 30%;
+    }
 }
