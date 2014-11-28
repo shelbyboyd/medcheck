@@ -6,7 +6,8 @@
 
  
 html {
-  font: ;
+  
+  font-family: normal 100% "Lato",serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +17,9 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-h1,h2,h3,h4,h5,h6 {
-    font: 
+
+h1,h2,h3,h4,h5,h6,figcaption {
+    font-family: "Pacifico", cursive; 
 }
 
 @media only screen and (min-width: 40em) {
@@ -57,7 +59,6 @@ body {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    float: right;
 }
 
 
@@ -106,23 +107,20 @@ header {
     overflow:hidden;
     display: inline;
 }
-        
-img {
-  display: block;
-  width: 100%;
-}
+
 
 .tour {
     text-align: center;
     padding: 3.5em;
 }
    
-.logo {
+img {
     display: block;
-    width: 10%;
+    width: 20%;
     height: auto;
+    margin: 0;
+    padding: 10px;
 }
-
 .icon {
     width: 18em;
     margin: 0 auto;
@@ -130,9 +128,8 @@ img {
 } 
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     display: inline;
-    overflow: hidden;
 }
 
 h2 {
@@ -144,6 +141,7 @@ h2 {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    vertical-align: middle;
 }
 
 .signup {

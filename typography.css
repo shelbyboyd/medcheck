@@ -1,7 +1,10 @@
 html {
-  font: normal 100% Georgia,serif;
+  font: normal 100% "Lato",serif;
 }
 
+h1, h2, h3, h4, h5, h6, {
+    font-family: "Pacifico", cursive;
+}
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
