@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
     font: 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
 
     html {
     font-size: 110%;
@@ -106,9 +106,10 @@ header {
 }
 
 .nav{
-    display: block;
-    overflow: hidden;
+    text-align: left;
+    display: inline-block;
     text-decoration: none;
+
 }
         
 img {
@@ -130,7 +131,7 @@ img {
 
 .icon {
     width: 18em;
-    margin: auto;
+    margin: 0 auto;
     padding: 1.5em;
 } 
 
@@ -138,6 +139,12 @@ h1 {
     font-size: 3em;
     overflow: hidden;
     display: inline-block;
+    float: left;
+}
+
+h2 {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .center {
@@ -149,7 +156,7 @@ h1 {
     height: auto;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
     .nav li {
         display: inline-block;
     }
