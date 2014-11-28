@@ -13,13 +13,12 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  text-size-adjust: 90%;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 
 .grid {
   margin: 0;
@@ -187,7 +186,7 @@ html {
   visibility: visible;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
 
 .unit-s-hidden {
   display: none;
@@ -300,7 +299,7 @@ html {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 70em) {
 
 .unit-m-hidden {
   display: none;
