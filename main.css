@@ -50,13 +50,30 @@ body {
   margin: 0;
   padding: 0;
 }
-a:hover,
-a:active {
-    outline: none;
+
+.nav {
+  padding: 0;
 }
 
-a:focus {
-  outline:5px solid #000;    
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  padding: 20px;
+  color: #2FB927;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #2FB927;
+
+  color: #fff;
 }
 
 .skip-links {
@@ -80,7 +97,7 @@ a:focus {
 }
 
 .masthead {
-    
+    overflow: hidden;
 }
 
 header {
@@ -88,10 +105,10 @@ header {
     display: inline;
 }
 
-.navigation {
-    float: left;
-    display: inline;
+.nav{
+    display: block;
     overflow: hidden;
+    text-decoration: none;
 }
         
 img {
@@ -118,6 +135,7 @@ img {
 } 
 
 h1 {
+    font-size: 3em;
     overflow: hidden;
     display: inline-block;
 }
