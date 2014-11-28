@@ -51,9 +51,15 @@ body {
   padding: 0;
 }
 
-.nav {
-  padding: 0;
+.nav{
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
+
 
 .nav li {
   display: block;
@@ -63,7 +69,7 @@ body {
 .nav a:link,
 .nav a:visited {
   display: block;
-  padding: 20px;
+  padding: 1em;
   color: #2FB927;
   text-decoration: none;
 }
@@ -96,20 +102,9 @@ body {
     top: 0;
 }
 
-.masthead {
-    overflow: hidden;
-}
-
 header {
     overflow:hidden;
     display: inline;
-}
-
-.nav{
-    text-align: left;
-    display: inline-block;
-    text-decoration: none;
-
 }
         
 img {
@@ -126,7 +121,6 @@ img {
     display: block;
     width: 10%;
     height: auto;
-    overflow: hidden;
 }
 
 .icon {
@@ -137,9 +131,8 @@ img {
 
 h1 {
     font-size: 3em;
+    display: inline;
     overflow: hidden;
-    display: inline-block;
-    float: left;
 }
 
 h2 {
@@ -149,6 +142,8 @@ h2 {
 
 .center {
     margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .signup {
@@ -158,16 +153,10 @@ h2 {
 
 @media only screen and (min-width: 40em) {
     .nav li {
+        float: right;
         display: inline-block;
     }
-    
-    .nav {
-        text-align: center;
-    }
-    
-    .footer {
-        text-align: center;
-    }  
+
 }
 
 
@@ -175,7 +164,7 @@ h2 {
 @media only screen and (min-width: 70em) {
     
     .nav {
-        float: left;
+        float: right;
     }
     
     .footer .nav {
