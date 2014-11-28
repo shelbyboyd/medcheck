@@ -53,12 +53,14 @@ body {
   padding: 0;
 }
 
-.nav{
-    text-align: right;
+.nav {
+    text-align: left;
     display: inline-block;
     text-decoration: none;
     margin: 0;
     padding: 0;
+    float: left;
+    overflow: hidden;
 }
 
 
@@ -114,13 +116,14 @@ header {
     padding: 3.5em;
 }
    
-img {
+.logo {
     display: block;
     width: 20%;
     height: auto;
     margin: 0;
     padding: 10px;
 }
+
 .icon {
     width: 18em;
     margin: 0 auto;
@@ -130,24 +133,29 @@ img {
 h1 {
     font-size: 4em;
     display: inline;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-h2 {
+h2,h3 {
     margin: 0 auto;
     padding: 0;
+    text-align: center;
 }
 
 .center {
     margin: 0 auto;
     overflow: hidden;
-    position: relative;
-    vertical-align: middle;
 }
 
 .signup {
     width: 300px;
     height: auto;
+    margin: 0 auto;
+    overflow: hidden;
 }
+
 
 @media only screen and (min-width: 40em) {
     .nav li {
@@ -163,6 +171,11 @@ h2 {
     
     .nav {
         float: right;
+    }
+
+    .center {
+        width: 66%;
+        margin: 0 auto;
     }
     
     .footer .nav {
