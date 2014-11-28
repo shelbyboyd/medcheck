@@ -11,6 +11,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 175%;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -65,7 +66,8 @@ body {
 
 
 .nav li {
-  display: block;
+  display: inline-block; 
+  float: right;
 }
 
 .nav a,
@@ -132,10 +134,8 @@ header {
 
 h1 {
     font-size: 4em;
-    display: inline;
     text-align: center;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 h2,h3 {
@@ -158,10 +158,6 @@ h2,h3 {
 
 
 @media only screen and (min-width: 40em) {
-    .nav li {
-        float: right;
-        display: inline-block;
-    }
     
     .signup {
     width: 50%;
@@ -172,10 +168,7 @@ h2,h3 {
 
 
 @media only screen and (min-width: 70em) {
-    
-    .nav {
-        float: right;
-    }
+ 
 
     .center {
         width: 66%;
@@ -183,7 +176,8 @@ h2,h3 {
     }
     
     .signup {
-    width: 40%;
+    width: 30%;
+    height: auto;
     }
    
     
@@ -191,6 +185,7 @@ h2,h3 {
 @media only screen and (min-width: 130em) {
    
    .signup {
-    width: 30%;
+    width: 20%;
+    height: auto;
     }
 }
