@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,figcaption {
 @media only screen and (min-width: 40em) {
 
     html {
-    font-size: 120%;
+    font-size: 110%;
     }
 
 }
@@ -34,14 +34,14 @@ h1,h2,h3,h4,h5,h6,figcaption {
 @media only screen and (min-width: 70em) {
     
     html {
-    font-size: 140%;
+    font-size: 120%;
     }
 }
 
 @media only screen and (min-width: 130em) {
    
     html {
-    font-size: 160%;
+    font-size: 130%;
     }
 }
 
@@ -103,35 +103,26 @@ body {
     top: 0;
 }
 
-header {
-
-    display: inline-block;
-}
-
-
 .tour {
     text-align: center;
     padding: 3.5em;
 }
    
 .logo {
-    width: 8em;
+    width: 4em;
     height: auto;
     margin: 0 auto;
-    overflow: hidden;
-
 }
 
 .icon {
-    width: 18em;
-    margin: 0 auto;
+    margin: 0;
+    max-width: 15em;
 } 
 
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
-    float: left;
 }
 
 h2,h3 {
@@ -146,7 +137,7 @@ h2,h3 {
 }
 
 .signup {
-    width: 60%;
+    width: 15em;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
@@ -154,10 +145,10 @@ h2,h3 {
 
 
 @media only screen and (min-width: 40em) {
-    
-    .signup {
-    width: 50%;
-    }
+        .center {
+        width: 66%;
+        margin: 0 auto;
+        }
 
 }
 
@@ -165,27 +156,13 @@ h2,h3 {
 
 @media only screen and (min-width: 70em) {
  
+  
 
-    .center {
-        width: 66%;
-        margin: 0 auto;
-    }
-    
-    .signup {
-    width: 30%;
-    height: auto;
-    }
    
     
 }
 @media only screen and (min-width: 130em) {
+ 
    
-   .signup {
-    width: 20%;
-    height: auto;
-    }
-    
-    .nav {
-        float: right;
-    }
+   
 }
