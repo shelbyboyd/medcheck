@@ -150,7 +150,7 @@ h2,h3 {
 }
 
 .signup {
-    width: 200px;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
@@ -178,15 +178,10 @@ h2,h3 {
         margin: 0 auto;
     }
     
-    .signup {
-        width: 250px;
-    }
+   
     
 }
 @media only screen and (min-width: 130em) {
-    
-    .signup {
-        width: 300px;
-    }
+   
    
 }
