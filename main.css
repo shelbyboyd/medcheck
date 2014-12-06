@@ -153,18 +153,20 @@ footer {
 
 label {
     display: block;
+    padding: 10px;
 }
 
 fieldset {
     margin-bottom: 1em;
     background-color: #d1f0a1;
     border: .5em solid #0768ee;
+    text-align: center;
 }
 
 input,
 select {
-    font-size: 1.25rem;
-    width: 20em;
+    font-size: 1em;
+    width: 15em;
     border: none;
 }
 
@@ -191,6 +193,7 @@ legend {
         width: 66%;
         margin: 0 auto;
         }
+        
 
 }
 

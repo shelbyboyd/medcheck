@@ -34,46 +34,43 @@
     
     <main>
     
-        <form class="grid pad-t" action="thankyou.html" method="post">
+        <form class="center pad-t" action="thankyou.html" method="post">
             
-            <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <legend class="peta">Login Information</legend>
+            <fieldset class="">
+                <legend class="tera">Login Information</legend>
                 <h6>*Optional</h6>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                     <label for="first-name">First Name</label>
                         <input id="first-name" placeholder="New">
                     <label for="last-name">Last Name</label>
                         <input id="last-name" placeholder="User">
                     <label for="user-name">Username*</label>
                         <input id="user-name" placeholder="NewUser123">
-                </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+
                     <label for="email" type="email">E-mail Address</label>
                         <input for="email" placeholder="youremail@address.ca">
-                    <label for="password" type="password">Password</label>
-                        <input id="password">
-                    <label for="confirm" type="password">Confirm Password</label>
-                        <input id="confirm">
-                </div>
+                    <label for="password">Password</label>
+                        <input id="password" type="password">
+                    <label for="confirm">Confirm Password</label>
+                        <input id="confirm" type="password">
                 <button type="submit">Sign Up</button>
             </fieldset>
                 
         
-            <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <legend class="peta">Additional information</legend>
+            <fieldset class="">
+                <legend class="tera">Additional information</legend>
                 <label for="intent">I want to keep track of my</label>
                     <select id="intent">
                         <option>Medication</option>
                         <option>Weight</option>
                         <option>Overall Health</option>
                     </select>
-                <label for="age" type="date">Birth Date</label>
-                    <input id="age">
-                <label for="weight" type="number" min="50" max="400" step="0.5">Weight: </label>
-                    <input id="weight" placeholder="lbs.">
-                <label for="height" type="number">Height</label>
-                    <input id="height" placeholder="ft.">
-                    <input id="height" placeholder="in.">
+                <label for="age">Birth Date</label>
+                    <input id="age" type="date">
+                <label for="weight">Weight: </label>
+                    <input id="weight" type="number" min="50" max="400" step="0.5" placeholder="lbs.">
+                <label for="height">Height</label>
+                    <input id="height" type="number" placeholder="ft.">
+                    <input id="height" type="number" min="0" max="12" step="0.5" placeholder="in.">
                 <button type="submit">Sign Up</button>     
             </fieldset>
         
