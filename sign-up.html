@@ -34,36 +34,40 @@
     
     <main>
     
-        <form action="thankyou.html" method="post">
+        <form class="grid pad-t" action="thankyou.html" method="post">
             
-            <fieldset>
-                <legend>Login Information</legend>
-                <h6>*Optional information</h6>
-                <label for="first-name">First Name</label>
-                    <input id="first-name" placeholder="New">
-                <label for="last-name">Last Name</label>
-                    <input id="last-name" placeholder="User">
-                <label for="user-name">Username*</label>
-                    <input id="user-name" placeholder="NewUser123">
-                <label for="email" type="email">E-mail Address</label>
-                    <input for="email" placeholder="youremail@address.ca">
-                <label for="password" type="password">Password</label>
-                    <input id="password">
-                <label for="confirm" type="password">Confirm Password</label>
-                    <input id="confirm">
+            <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <legend class="peta">Login Information</legend>
+                <h6>*Optional</h6>
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <label for="first-name">First Name</label>
+                        <input id="first-name" placeholder="New">
+                    <label for="last-name">Last Name</label>
+                        <input id="last-name" placeholder="User">
+                    <label for="user-name">Username*</label>
+                        <input id="user-name" placeholder="NewUser123">
+                </div>
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <label for="email" type="email">E-mail Address</label>
+                        <input for="email" placeholder="youremail@address.ca">
+                    <label for="password" type="password">Password</label>
+                        <input id="password">
+                    <label for="confirm" type="password">Confirm Password</label>
+                        <input id="confirm">
+                </div>
                 <button type="submit">Sign Up</button>
             </fieldset>
                 
         
-            <fieldset>
-                <legend>Optional additional information</legend>
+            <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <legend class="peta">Additional information</legend>
                 <label for="intent">I want to keep track of my</label>
                     <select id="intent">
                         <option>Medication</option>
                         <option>Weight</option>
                         <option>Overall Health</option>
                     </select>
-                <label for="age" type="number" min="10" max="100">Age</label>
+                <label for="age" type="date">Birth Date</label>
                     <input id="age">
                 <label for="weight" type="number" min="50" max="400" step="0.5">Weight: </label>
                     <input id="weight" placeholder="lbs.">

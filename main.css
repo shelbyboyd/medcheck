@@ -151,6 +151,41 @@ footer {
      background-color: #97dbee;
 }
 
+label {
+    display: block;
+}
+
+fieldset {
+    margin-bottom: 1em;
+    background-color: #d1f0a1;
+    border: .5em solid #0768ee;
+}
+
+input,
+select {
+    font-size: 1.25rem;
+    width: 20em;
+    border: none;
+}
+
+button {
+    font-size: 1.25rem;
+    font-family: "Pacifico", cursive;
+    color: #0768ee;
+    background-color: white;
+    border-color: #0768ee;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-width: 6px;
+    display: block;
+    margin: .5em auto;
+}
+
+legend {
+    font-family: "Pacifico", cursive;
+}
+
 @media only screen and (min-width: 40em) {
         .center {
         width: 66%;
