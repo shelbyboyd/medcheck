@@ -190,20 +190,37 @@ legend {
 
 .free {
     background-color: #faeca0;
+    margin: 0 auto;
 }
 
 .premium {
     background-color: #f7bfd0;
+    margin: 0 auto;
 }
 
 .ultra {
     background-color: #ffd5b6;
+    margin: 0 auto;
 }
 
 .faq {
     background-color: #BFFFC3;
+    overflow: hidden;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
+.pricing h3 {
+    text-decoration: underline solid 3px;
+}
+
+.pricing button {
+    position: relative;
+    bottom: 10px;
+}
+
+    
 
 @media only screen and (min-width: 40em) {
         .center {
