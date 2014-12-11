@@ -20,7 +20,7 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6,figcaption {
-    font-family: "Pacifico", cursive; 
+    font-family: "Righteous cursive; 
 }
 
 @media only screen and (min-width: 40em) {
@@ -72,14 +72,14 @@ body {
 .nav a:visited {
   display: block;
   padding: 1em;
-  color: #0768ee;
+  color: #154BFF;
   text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #0768ee;
+  background-color: #154BFF;
   color: #fff;
 }
 
@@ -106,7 +106,7 @@ body {
 .tour {
     text-align: center;
     padding: 3.5em;
-    background-color: #d1f0a1;
+    background-color: #BFFFC3;
 }
    
 .logo {
@@ -144,11 +144,11 @@ h2,h3 {
     overflow: hidden;
 }
 header {
-     background-color: #97dbee;
+     background-color: #7FCBFF;
 }
 
 footer {
-     background-color: #97dbee;
+     background-color: #7FCBFF;
 }
 
 label {
@@ -158,8 +158,8 @@ label {
 
 fieldset {
     margin-bottom: 1em;
-    background-color: #d1f0a1;
-    border: .5em solid #0768ee;
+    background-color: #BFFFC3;
+    border: .5em solid #154BFF;
     text-align: center;
 }
 
@@ -172,10 +172,10 @@ select {
 
 button {
     font-size: 1.25rem;
-    font-family: "Pacifico", cursive;
-    color: #0768ee;
+    font-family: "Righteous", cursive;
+    color: #154BFF;
     background-color: white;
-    border-color: #0768ee;
+    border-color: #154BFF;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -185,8 +185,25 @@ button {
 }
 
 legend {
-    font-family: "Pacifico", cursive;
+    font-family: "Righteous", cursive;
 }
+
+.free {
+    background-color: #faeca0;
+}
+
+.premium {
+    background-color: #f7bfd0;
+}
+
+.ultra {
+    background-color: #ffd5b6;
+}
+
+.faq {
+    background-color: #BFFFC3;
+}
+
 
 @media only screen and (min-width: 40em) {
         .center {
