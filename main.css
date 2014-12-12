@@ -55,7 +55,7 @@ body {
 }
 
 .nav {
-    text-align: center;
+    text-align: right;
     display: inline-block;
     text-decoration: none;
     margin: 0;
@@ -110,7 +110,7 @@ body {
 }
    
 .logo {
-    width: 4em;
+    width: 10em;
     height: auto;
     margin: 0 auto;
 }
@@ -212,6 +212,27 @@ legend {
 
 .premium {
     background-color: #f7bfd0;
+}
+
+.premium img {
+    max-width: 15em;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.free img {
+    max-width: 15em;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ultra img {
+    max-width: 15em;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .ultra {
