@@ -55,7 +55,7 @@ body {
 }
 
 .nav {
-    text-align: right;
+    text-align: center;
     display: inline-block;
     text-decoration: none;
     margin: 0;
@@ -216,21 +216,21 @@ legend {
 }
 
 .premium img {
-    max-width: 15em;
+    width: 15em;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .free img {
-    max-width: 15em;
+    width: 15em;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .ultra img {
-    max-width: 15em;
+    width: 15em;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
@@ -261,7 +261,14 @@ legend {
     margin: 0 auto;
 }
 
+.features {
+    padding: 0;
+}
 
+.title {
+    text-decoration: underline;
+    font-size: 2em;
+}
     
 
 @media only screen and (min-width: 40em) {
@@ -270,12 +277,16 @@ legend {
         margin: 0 auto;
         }
         
+        .nav {
+        text-align: right;
+        }
 
 }
 
 
 
 @media only screen and (min-width: 70em) {
+
 
     
 }
