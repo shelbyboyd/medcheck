@@ -191,7 +191,7 @@ select {
 
 button {
     font-size: 1.25rem;
-    font-family: "Righteous", cursive;
+    font-family: "Raleway", sans-serif;
     color: #fff;
     background-color:#154BFF;
     width: 100px;
@@ -202,7 +202,7 @@ button {
 }
 
 legend {
-    font-family: "Righteous", cursive;
+    font-family: "Raleway", sans-serif;
 }
 
 .free {
@@ -229,6 +229,8 @@ legend {
 
 .pricing li {
     list-style: none;
+    font-size: 1.25em;
+    line-height: 1.5em;
 }
 
 .faq {
