@@ -192,11 +192,12 @@ select {
 button {
     font-size: 1.25rem;
     font-family: "Raleway", sans-serif;
-    color: #fff;
-    background-color:#154BFF;
+    color: #154BFF;
+    background-color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border-color: #154BFF;
     display: block;
     margin: .5em auto;
 }
